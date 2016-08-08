@@ -108,7 +108,7 @@ form{
 <label for="comment">Your Comment</label>
 <textarea id="txtComment" name="commentm" class="form-control"  ><?php echo $users['comment']; ?></textarea>
 </div>
-<center><input type="submit" name="submitbtn" class="btn btn-primary btn-lg" value="Submit ! " id="sendbutton" /></center>
+<center><input type="submit" name="submitbtn" class="btn btn-success btn-lg" value="Update" id="sendbutton" /></center>
 </form>
 </div>
 </div>

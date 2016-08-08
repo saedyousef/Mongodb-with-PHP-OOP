@@ -79,7 +79,7 @@ form{
 <div class="row">
 
 <div class="col-md-6 col-md-offset-3 emailForm">
-<center><h1> Email Form</h1></center>
+<center><h1> Insert to MongoDB</h1></center>
 
 <form method="post">
 <div class="form-group">
@@ -98,7 +98,7 @@ form{
 <label for="comment">Your Comment</label>
 <textarea id="txtComment" name="comment" class="form-control"  ></textarea>
 </div>
-<center><input type="submit" name="submitbtn" class="btn btn-primary btn-lg" value="Submit ! " id="sendbutton" /></center>
+<center><input type="submit" name="submitbtn" class="btn btn-primary btn-lg" value="Insert ! " id="sendbutton" /></center>
 </form>
 </div>
 </div>
