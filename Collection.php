@@ -17,7 +17,7 @@ class Collection {
 
 	/**
 	*Constructor of class Collection
-	*@param : $con ti initlize the connection at call time
+	* @param $con 
 	**/
 	function __construct($connnection)
 	{ 
@@ -26,8 +26,10 @@ class Collection {
 	}
 
 	/**
-	*Method insert data into "Model" Collection
-	*@param takes three paramters consider the documents in collections
+	* Method insert data into "Model" Collection
+	* @param $name
+	* @param $email
+	* @param $comment
 	**/
 	public function insertUser($name,$email,$comment)
 	{
@@ -61,7 +63,7 @@ class Collection {
 	* @param $name 
 	* @param $email
 	* @param $comment
-	*
+	* @param $id
 	**/
 	public function updateUser($name,$email,$comment,$id)
 	{
